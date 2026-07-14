@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SYNTECH — Building Smarter Software for Modern Businesses.</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+<!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="logo" aria-label="SYNTECH Home">
+        <span class="logo-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 14L14 4L24 14L14 24L4 14Z" stroke="url(#logoGrad)" stroke-width="2" fill="none"/>
+            <path d="M9 14L14 9L19 14L14 19L9 14Z" fill="url(#logoGrad)"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="4" y1="4" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6366f1"/>
+                <stop offset="1" stop-color="#a855f7"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="logo-text">SYNTECH</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-ghost">Sign In</a>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+<!-- ═══════════════════════════ HERO SECTION ═══════════════════════════ -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <span class="eyebrow">Full-Stack Software Studio</span>
+        <h1>Building Smarter Software for Modern Businesses</h1>
+
+        <p>
+            We help startups and enterprises transform ideas into scalable web
+            applications using modern technologies and AI-powered solutions.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+            <a href="#about" class="btn btn-ghost">Learn More</a>
+        </div>
+
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-num">120+</span>
+                <span class="stat-label">Projects shipped</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">98%</span>
+                <span class="stat-label">Client retention</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">24/7</span>
+                <span class="stat-label">Support</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <svg viewBox="0 0 560 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a software dashboard">
+          <defs>
+            <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#6366F1"/>
+              <stop offset="1" stop-color="#A855F7"/>
+            </linearGradient>
+          </defs>
+          <rect x="40" y="60" width="480" height="360" rx="24" fill="#ffffff" stroke="#E5E7EB" stroke-width="2"/>
+          <rect x="40" y="60" width="480" height="50" rx="24" fill="url(#heroGrad)"/>
+          <rect x="40" y="86" width="480" height="24" fill="url(#heroGrad)"/>
+          <circle cx="66" cy="85" r="6" fill="#fff" opacity=".8"/>
+          <circle cx="86" cy="85" r="6" fill="#fff" opacity=".6"/>
+          <circle cx="106" cy="85" r="6" fill="#fff" opacity=".4"/>
+          <rect x="66" y="140" width="200" height="90" rx="14" fill="#EEF2FF"/>
+          <rect x="66" y="150" width="90" height="10" rx="5" fill="#6366F1"/>
+          <rect x="66" y="170" width="140" height="34" rx="8" fill="#C7D2FE"/>
+          <rect x="284" y="140" width="196" height="90" rx="14" fill="#F5F3FF"/>
+          <rect x="284" y="150" width="80" height="10" rx="5" fill="#A855F7"/>
+          <path d="M300 210 L330 180 L355 200 L385 160 L410 190" stroke="#A855F7" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="66" y="248" width="414" height="90" rx="14" fill="#EEF2FF"/>
+          <rect x="86" y="266" width="374" height="12" rx="6" fill="#C7D2FE"/>
+          <rect x="86" y="288" width="300" height="12" rx="6" fill="#DDD6FE"/>
+          <rect x="86" y="310" width="340" height="12" rx="6" fill="#C7D2FE"/>
+          <circle cx="470" cy="60" r="34" fill="url(#heroGrad)" opacity=".15"/>
+          <circle cx="60" cy="440" r="46" fill="url(#heroGrad)" opacity=".12"/>
+        </svg>
+    </div>
+</section>
+
+<!-- ═══════════════════════════ SERVICES SECTION ═══════════════════════════ -->
+<section class="services" id="services">
+    <div class="section-head">
+        <span class="eyebrow">What We Do</span>
+        <h2>Software built around your workflow, not ours</h2>
+        <p>Every engagement pairs a small senior team with a clear scope, so you always know what's shipping and why.</p>
+    </div>
+
+    <div class="services-grid">
+        <div class="service-card">
+            <div class="service-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>
+            </div>
+            <h3>Web Applications</h3>
+            <p>Custom front-end and back-end builds using React, Node and modern frameworks, built to scale from day one.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+            </div>
+            <h3>Mobile Apps</h3>
+            <p>Native-feel iOS and Android experiences from a single codebase, shipped to both stores in one release cycle.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <h3>Cloud &amp; DevOps</h3>
+            <p>CI/CD pipelines, infrastructure-as-code and monitoring so deployments stop being an event and become routine.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+            </div>
+            <h3>AI Integrations</h3>
+            <p>Practical AI features — search, automation, copilots — wired into your existing product instead of bolted on.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20l9-16H3l9 16z"/></svg>
+            </div>
+            <h3>Product Design</h3>
+            <p>Wireframes through to polished UI, with a design system your team can keep extending after we hand off.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg>
+            </div>
+            <h3>API &amp; Integrations</h3>
+            <p>Clean REST/GraphQL APIs and third-party integrations that keep your systems talking to each other reliably.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════ ABOUT SECTION ═══════════════════════════ -->
+<section class="about" id="about">
+    <div class="about-image">
+        <svg viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a team collaborating">
+          <defs>
+            <linearGradient id="aboutGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#A855F7"/>
+              <stop offset="1" stop-color="#6366F1"/>
+            </linearGradient>
+          </defs>
+          <rect x="30" y="40" width="420" height="340" rx="28" fill="url(#aboutGrad)" opacity=".08"/>
+          <rect x="70" y="90" width="200" height="240" rx="18" fill="#ffffff" stroke="#E5E7EB" stroke-width="2"/>
+          <circle cx="170" cy="160" r="34" fill="#EEF2FF" stroke="#6366F1" stroke-width="2"/>
+          <rect x="100" y="220" width="140" height="10" rx="5" fill="#C7D2FE"/>
+          <rect x="100" y="242" width="100" height="10" rx="5" fill="#DDD6FE"/>
+          <rect x="100" y="270" width="140" height="34" rx="8" fill="url(#aboutGrad)"/>
+          <rect x="220" y="60" width="190" height="150" rx="18" fill="#ffffff" stroke="#E5E7EB" stroke-width="2"/>
+          <path d="M250 170 L280 130 L310 150 L345 100 L380 140" stroke="#A855F7" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="250" y="230" width="160" height="120" rx="18" fill="#ffffff" stroke="#E5E7EB" stroke-width="2"/>
+          <circle cx="290" cy="270" r="18" fill="#F5F3FF" stroke="#A855F7" stroke-width="2"/>
+          <rect x="320" y="262" width="70" height="8" rx="4" fill="#DDD6FE"/>
+          <rect x="320" y="280" width="50" height="8" rx="4" fill="#C7D2FE"/>
+        </svg>
+    </div>
+
+    <div class="about-content">
+        <span class="eyebrow">About Syntech</span>
+        <h2>An engineering-first team that ships, not just plans</h2>
+        <p>
+            SYNTECH was founded by developers who got tired of six-month roadmaps
+            that never left the whiteboard. We work in short, focused cycles —
+            architecture, build, ship, iterate — so you're seeing working software
+            in weeks, not quarters.
+        </p>
+
+        <ul class="about-list">
+            <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Senior-only engineering team, no hand-offs to juniors</span>
+            </li>
+            <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Weekly demos, not quarterly status decks</span>
+            </li>
+            <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Fixed-scope pricing with no surprise change orders</span>
+            </li>
+        </ul>
+
+        <a href="#contact" class="btn btn-primary">Work With Us</a>
+    </div>
+</section>
+
+<!-- ═══════════════════════════ PROJECTS SECTION ═══════════════════════════ -->
+<section class="projects" id="projects">
+    <div class="section-head">
+        <span class="eyebrow">Our Work</span>
+        <h2>Recent projects</h2>
+        <p>A snapshot of products we've designed, built and shipped for our clients.</p>
+    </div>
+
+    <div class="projects-grid">
+        <article class="project-card">
+            <div class="project-thumb" style="background:linear-gradient(135deg,#6366F1,#A855F7);">
+                <span>FinTrack</span>
+            </div>
+            <div class="project-body">
+                <span class="project-tag">Fintech · Web App</span>
+                <h3>Personal finance dashboard</h3>
+                <p>A budgeting platform with real-time spend tracking and automated categorization for 40k+ users.</p>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-thumb" style="background:linear-gradient(135deg,#4F46E5,#818CF8);">
+                <span>CarePath</span>
+            </div>
+            <div class="project-body">
+                <span class="project-tag">Healthcare · Mobile</span>
+                <h3>Patient scheduling app</h3>
+                <p>Cross-platform booking app that cut no-show rates for a regional clinic network by 32%.</p>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-thumb" style="background:linear-gradient(135deg,#A855F7,#C084FC);">
+                <span>ShelfWise</span>
+            </div>
+            <div class="project-body">
+                <span class="project-tag">Retail · Full-Stack</span>
+                <h3>Inventory management suite</h3>
+                <p>Multi-warehouse inventory system with live stock sync across an 80-store retail chain.</p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- ═══════════════════════════ CONTACT SECTION ═══════════════════════════ -->
+<section class="contact" id="contact">
+    <div class="contact-info">
+        <span class="eyebrow">Get In Touch</span>
+        <h2>Let's build something together</h2>
+        <p>Tell us a bit about your project and we'll get back to you within one business day.</p>
+
+        <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+            <span>hello@syntech.dev</span>
+        </div>
+        <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+1 (555) 012-3456</span>
+        </div>
+        <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>San Francisco, CA</span>
+        </div>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+</section>
+  </main>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <a href="#home" class="logo" aria-label="SYNTECH Home">
+                <span class="logo-icon">
+                    <svg width="26" height="26" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 14L14 4L24 14L14 24L4 14Z" stroke="url(#logoGradFooter)" stroke-width="2" fill="none"/>
+                        <path d="M9 14L14 9L19 14L14 19L9 14Z" fill="url(#logoGradFooter)"/>
+                        <defs>
+                            <linearGradient id="logoGradFooter" x1="4" y1="4" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#818cf8"/>
+                                <stop offset="1" stop-color="#c084fc"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span class="logo-text">SYNTECH</span>
+            </a>
+            <p>Building smarter software for modern businesses.</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Navigate</h4>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+        </div>
+
+        <div class="footer-links">
+            <h4>Company</h4>
+            <a href="#contact">Contact</a>
+            <a href="#about">Careers</a>
+            <a href="#about">Privacy Policy</a>
+        </div>
+
+        <div class="footer-social">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="Twitter">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="#" aria-label="GitHub">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.93.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.68-4.57 4.92.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 SYNTECH. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
